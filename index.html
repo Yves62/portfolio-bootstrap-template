@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio template with bootstrap</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#last-project">Mes derniers projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#skills">Mes skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#project">Mes projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-5 bg-presentation text-white">
+        <div class="row p-4 d-flex flex-column flex-column justify-content-center align-items-center">
+            <div class="col-8 text-center glass p-2">
+                <H1>Doe John</H1>
+                <h2>Developpeur Full stack</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo accusantium atque numquam
+                    enim! Tempora fugit quasi ipsa voluptates, repudiandae nemo soluta ex tempore! Nemo vero
+                    perspiciatis, blanditiis commodi quos velit!
+                </p>
+                <div class="picture-image mx-auto d-none d-lg-block"></div>
+                <div class="d-block d-md-none d-flex justify-content-center align-items-center">
+                    <img src="./assets/img/phone.png" alt="icone d'un téléhphone" class="icon-phone">
+                    <a href="tel:+0102030405" class="text-decoration-none text-white ms-2 ">O1O2O3O4O5</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="text-center my-5" id="last-project">Mes derniers projets</h2>
+
+    <div class="container-fluid mb-5">
+        <div id="carouselExampleIndicators" class="carousel slide container-carousel" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/projet-1.png" class="d-block w-100 img-caroussel" alt="projet un">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/projet-4.png" class="d-block w-100 img-caroussel" alt="projet deux">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/projet-6.png" class="d-block w-100 img-caroussel" alt="projet trois">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <section class="skills-section p-5 text-white">
+        <h2 class="text-center mb-4" id="skills">Mes skills</h2>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 mx-auto mb-4">
+                    <div class="d-flex justify-content-center align-items-center mb-3">
+                        <div class="me-5">Html</div>
+                        <div class="progress w-75">
+                            <div class="progress-bar bg-success w-75">HTML</div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center mb-3">
+                        <div class="me-5">CSS</div>
+                        <div class="progress w-75">
+                            <div class="progress-bar bg-danger w-50">CSS</div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center mb-3">
+                        <div class="me-5">JS</div>
+                        <div class="progress w-75 ms-2">
+                            <div class="progress-bar bg-black w-50">JS</div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center mb-3">
+                        <div class="me-5">Vue.js</div>
+                        <div class="progress w-75">
+                            <div class="progress-bar bg-warning w-75">Vue.js</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <h2 class="text-center my-5">Mes projets</h2>
+
+    <div class="container" id="project">
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="card m-2 shadow shadow-lg">
+                    <img src="./assets/img/projet-1.png" class="card-img-top size-img-card" alt="projet card motorbike">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Motorbike card</h5>
+                        <p class="card-text">Une carte responsive en css</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-primary my-3" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Plus d'informations
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Motorbike card</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Projet réalisé uniquement en HTML et CSS, entiérement responsive
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-primary">Consulter le projet</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card m-2 shadow shadow-lg">
+                    <img src="./assets/img/projet-2.png" class="card-img-top size-img-card" alt="projet site web">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Espagnol en folie</h5>
+                        <p class="card-text">PWA avec Nuxt.js et bootstrap-vue</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-primary my-3" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal2">
+                            Plus d'informations
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Espagnol-en-folie.com</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Projet réalisé dans le cadre d'une PWA. Réalisé avec le framework nuxt.js et la version vue de Bootstrap
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-primary">Consulter le projet</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card m-2 shadow shadow-lg">
+                    <img src="./assets/img/projet-3.png" class="card-img-top size-img-card" alt="projet card trophée">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Trophy card</h5>
+                        <p class="card-text">Une carte en css</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-primary my-3" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal3">
+                            Plus d'informations
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Trophy card</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Projet réalisé en html et CSS pour le fun
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary">Consulter le projet</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card m-2 shadow shadow-lg">
+                    <img src="./assets/img/projet-4.png" class="card-img-top size-img-card" alt="projet glass effect">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Glass Effect</h5>
+                        <p class="card-text">Glass effect en css</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-primary my-3" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal4">
+                            Plus d'informations
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Glass effect</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Projet réalisé pour découvrir l'effet css du glass effect !
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary">Consulter le projet</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card m-2 shadow shadow-lg">
+                    <img src="./assets/img/projet-5.png" class="card-img-top size-img-card" alt="projet calcul IMC">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Indice IMC</h5>
+                        <p class="card-text">HTML-CSS-JS</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-primary my-3" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal5">
+                            Plus d'informations
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Indice IMC</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Projet réalisé en HTM-CSS-JS, entièrement responsive. 
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary">Consulter le projet</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card m-2 shadow shadow-lg">
+                    <img src="./assets/img/projet-6.png" class="card-img-top size-img-card" alt="projet bibliothèque">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Bibliothèque de jeux</h5>
+                        <p class="card-text">HTML-CSS-JS</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-primary my-3" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal6">
+                            Plus d'informations
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Ma bibliothèque de jeux</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Projet réalisé en HTM-CSS-JS, entièrement responsive, pour classer vos jeux, dvd ou autres...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary">Consulter le projet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="contact-section p-5 mt-5">
+        <h2 class="text-center my-5 text-white" id="contact">Pour me contacter</h2>
+
+        <div class="container">
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Votre nom" required>
+                    <label for="name" class="form-label">Votre nom</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" name="firstname" id="firstname" class="form-control" placeholder="Votre prénom"
+                        required>
+                    <label for="firstname" class="form-label">Votre prénom</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Votre email" required>
+                    <label for="email" class="form-label">Votre email</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" name="message" id="message" class="form-control" placeholder="Votre message"
+                        required>
+                    <label for="message" class="form-label">Votre message</label>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-warning p-2 mt-2">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="container-fluid d-flex justify-content-around align-items-center  border-top border-3 border-dark">
+        <div>
+            Doe John
+        </div>
+        <div>
+            Developpeur HTML-CSS-JS
+        </div>
+        <div>
+            <a href="https://github.com/Yves62" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
